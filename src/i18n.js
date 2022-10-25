@@ -11,7 +11,7 @@ import contentFr from './locales/fr/content.json';
 import contentId from './locales/id/content.json';
 import contentMr from './locales/mr/content.json';
 import contentPl from './locales/pl/content.json';
-import contentPt from './locales/pt/content.json';
+import contentPtBR from './locales/pt_BR/content.json';
 import contentTa from './locales/ta/content.json';
 import contentPa from './locales/pa/content.json';
 import contentHi from './locales/hi/content.json';
@@ -35,6 +35,8 @@ import contentUr from './locales/ur/content.json';
 import contentNp from './locales/np/content.json';
 import contentOr from './locales/or/content.json';
 import contentKo from './locales/ko/content.json';
+import contentZhCN from './locales/zh_CN/content.json';
+import contentMa from './locales/ma/content.json';
 import contentVi from './locales/vi/content.json';
 import contentSl from './locales/sl/content.json';
 
@@ -59,7 +61,7 @@ const resources = {
   id: contentId,
   mr: contentMr,
   pl: contentPl,
-  pt: contentPt,
+  'pt-BR': contentPtBR,
   ta: contentTa,
   pa: contentPa,
   hi: contentHi,
@@ -83,6 +85,8 @@ const resources = {
   np: contentNp,
   or: contentOr,
   ko: contentKo,
+  'zh-CN': contentZhCN,
+  ma: contentMa,
   vi: contentVi,
   sl: contentSl,
 };
@@ -92,6 +96,7 @@ export const localesList = [
   { locale: 'ar', description: 'Arabic' },
   { locale: 'as', description: 'Assamese' },
   { locale: 'bn', description: 'Bengali' },
+  { locale: 'zh-CN', description: 'Chinese' },
   { locale: 'cn', description: 'Mandarin' },
   { locale: 'de', description: 'German' },
   { locale: 'nl', description: 'Dutch' },
@@ -108,6 +113,7 @@ export const localesList = [
   { locale: 'jp', description: 'Japanese' },
   { locale: 'ka', description: 'Kannada' },
   { locale: 'ko', description: 'Korean' },
+  { locale: 'ma', description: 'Maithili' },
   { locale: 'ml', description: 'Malayalam' },
   { locale: 'mr', description: 'Marathi' },
   { locale: 'np', description: 'Nepali' },
@@ -115,7 +121,7 @@ export const localesList = [
   { locale: 'or', description: 'Odia' },
   { locale: 'pa', description: 'Punjabi' },
   { locale: 'pl', description: 'Polish' },
-  { locale: 'pt', description: 'Português' },
+  { locale: 'pt-BR', description: 'Português' },
   { locale: 'sm', description: 'Samoan' },
   { locale: 'sv', description: 'Swedish' },
   { locale: 'ta', description: 'Tamil' },
