@@ -9,6 +9,7 @@ import contentEs from './locales/es/content.json';
 import contentFi from './locales/fi/content.json';
 import contentFr from './locales/fr/content.json';
 import contentId from './locales/id/content.json';
+import contentIt from './locales/it/content.json';
 import contentMr from './locales/mr/content.json';
 import contentPl from './locales/pl/content.json';
 import contentPtBR from './locales/pt_BR/content.json';
@@ -39,6 +40,8 @@ import contentZhCN from './locales/zh_CN/content.json';
 import contentMa from './locales/ma/content.json';
 import contentVi from './locales/vi/content.json';
 import contentSl from './locales/sl/content.json';
+import contentDa from './locales/da/content.json';
+import contentAm from './locales/am/content.json';
 
 const options = {
   order: ['querystring', 'cookie', 'localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
@@ -59,6 +62,7 @@ const resources = {
   fi: contentFi,
   fr: contentFr,
   id: contentId,
+  it: contentIt,
   mr: contentMr,
   pl: contentPl,
   'pt-BR': contentPtBR,
@@ -89,15 +93,19 @@ const resources = {
   ma: contentMa,
   vi: contentVi,
   sl: contentSl,
+  da: contentDa,
+  am: contentAm,
 };
 
 // Feel free to translate the language name
 export const localesList = [
+  { locale: 'am', description: 'Amharic' },
   { locale: 'ar', description: 'Arabic' },
   { locale: 'as', description: 'Assamese' },
   { locale: 'bn', description: 'Bengali' },
   { locale: 'zh-CN', description: 'Chinese' },
   { locale: 'cn', description: 'Mandarin' },
+  { locale: 'da', description: 'Danish' },
   { locale: 'de', description: 'German' },
   { locale: 'nl', description: 'Dutch' },
   { locale: 'en', description: 'English' },
@@ -110,6 +118,7 @@ export const localesList = [
   { locale: 'he', description: 'Hebrew' },
   { locale: 'hi', description: 'Hindi' },
   { locale: 'id', description: 'Indonesian' },
+  { locale: 'it', description: 'Italian' },
   { locale: 'jp', description: 'Japanese' },
   { locale: 'ka', description: 'Kannada' },
   { locale: 'ko', description: 'Korean' },
